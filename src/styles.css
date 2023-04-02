@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color: #FFF8F0;;
+    position: relative;
+}
+#pwd-landing{
+    display: flex;
+    gap: 20px;
+}
+#pwd-landing-text{
+    width: 50%;
+    padding-left: 150px;
+}
+#pwd-landing-text-body{
+    position: relative;
+}
+#pwd-landing-image{
+    width: 50%;
+}
+#pwd-landing-image img{
+    width: 100%;
+    height: 100%;
+}
+#pwd-landing-text-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 14px;
+}
+.pwd-landing-text-header-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.pwd-landing-text-header-item img{
+    width: 16px;
+    height: 16px;
+}
+#pwd-landing-text-small{
+    margin-top: 35px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #291854;
+}
+#pwd-landing-text-big{
+    margin-top: 10px;
+    font-family: 'League Spartan';
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 50px;
+    color: #190D37;
+}
+#pwd-landing-text-big span{
+    font-weight: 400;
+}
+#pwd-landing-text-line{
+    position: absolute;
+    width: 223.9px;
+    height: 36.72px;
+    top: 159.5px;
+    left: -5px;
+    z-index: -1;
+}
+#pwd-landing-text-paragraph{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: #331E6A;
+    margin-top: 25px;
+}
+#pwd-landing-text-button{
+    background: #2F2F2F;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 12px 24px;
+    border: 1px solid #2F2F2F;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* PWD-EXPERIENCE SECTION */
+#pwd-experience{
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+}
+#pwd-experience-text{
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+.pwd-small-header-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    color: #2858FF;
+}
+.pwd-big-header-text{
+    font-family: 'League Spartan';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.pwd-header-paragraph{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #190D37;
+    margin-top: 8px;
+}
+#pwd-experience-cards{
+    display: flex;
+    margin-top: 48px;
+    gap: 20px;
+}
+.pwd-experience-cards-item{
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.pwd-experience-cards-item p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #55206D;
+    margin-top: 10px;
+}
+.pwd-experience-cards-item h5{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+#pwd-experience-overlay-red{
+    z-index: -1;
+    width: 330.22px;
+    height: 300px;
+    position: absolute;
+    left: 55px;
+    top: 980px;
+}
+#pwd-experience-overlay-blue{
+    z-index: -1;
+    width: 321.69px;
+    height: 300px;
+    position: absolute;
+    right: 50px;
+    top: 780px;
+}
+
+/* PWD Projects section */
+#pwd-project-section{
+    max-width: 970px;
+    margin: 0 auto;
+    margin-top: 98px;
+}
+#pwd-project-text{
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+#pwd-project-Lists{
+    margin-top: 50px;
+}
+.pwd-project-listItem{
+    display: flex;
+    gap: 20px;
+    height: max-content;
+    margin-bottom: 40px;
+}
+.pwd-project-listItem-profile-blue, .pwd-project-listItem-profile-yellow, .pwd-project-listItem-profile-red{
+    width: 160px;
+    height: 160px;
+    background: #19ACFF;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 50%;
+    height: 160px;
+}
+.pwd-project-listItem-profile-yellow{
+    background-color: #FFE819;
+    color: #000;
+}
+.pwd-project-listItem-profile-red{
+    background-color: #FF1919;
+}
+.pwd-project-listItem h4{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #291854;
+    margin-top: 5px;
+}
+.pwd-project-listItem p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #55206D;
+}
+.pwd-projects-link{
+    margin-top: 12px;
+}
+.pwd-project-listItem a{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6A87A3;
+    text-decoration: none;
+}
+
+/* Pricing Section */
+#pwd-pricing-section{
+    max-width: 970px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#pwd-pricing-text{
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+#pwd-pricing-cardWrapper{
+    display: flex;
+    gap: 20px;
+    margin-top: 48px;
+}
+.pwd-pricing-card-item{
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.pwd-pricing-card-item h5{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    color: #2858FF;
+}
+.pwd-pricing-dollar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pwd-pricing-dollar h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 54px;
+    color: #000000;
+}
+.pwd-pricing-dollar span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.pwd-pricing-card-item p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.pwd-pricing-card-lists{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin-top: 16px;
+}
+.pwd-pricing-card-listItem{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 8px;
+}
+.pwd-pricing-card-item button{
+    width: 100%;
+    padding: 12px 90px;
+    margin-top: 16px;
+    background: #FFFFFF;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    border: 2px solid black;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #2F2F2F;
+    cursor: pointer;
+}
+.yello{
+    background: #FFD748;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.yello button{
+    background-color: #000;
+    color: white;
+}
+.pwd-pricing-card-item:hover{
+    transition: .5s;
+    transform: scale(1.02);
+}
+
+/* Questions Section */
+#pwd-questions-section{
+    max-width: 970px;
+    margin: 0 auto;
+    margin-top: 98px;
+}
+#pwd-questions-text{
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+#pwd-questions{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.pwd-questions-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.pwd-questions-item img{
+    cursor: pointer;
+}
+.pwd-questions-item h3{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #55206D;
+    margin-top: 16px;   
+}
+#pwd-questions p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6A87A3;
+}
+
+/* Footer section */
+#pwd-footer{
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    margin-top: 96px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
